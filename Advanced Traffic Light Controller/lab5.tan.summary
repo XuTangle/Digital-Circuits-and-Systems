@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 1.407 ns
+From           : sw[17]
+To             : waitWE[1]
+From Clock     : --
+To Clock       : clock_50
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 15.469 ns
+From           : state.STATE2
+To             : ledr[0]
+From Clock     : clock_50
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 12.850 ns
+From           : sw[15]
+To             : ledg[7]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 1.143 ns
+From           : sw[16]
+To             : state.STATE3
+From Clock     : --
+To Clock       : clock_50
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clock_50'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 248.32 MHz ( period = 4.027 ns )
+From           : mod1_counter[6]
+To             : OneHzModCLK
+From Clock     : clock_50
+To Clock       : clock_50
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

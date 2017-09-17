@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 15.174 ns
+From           : state.STATE3
+To             : hex0[2]
+From Clock     : clock_50
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clock_50'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 193.61 MHz ( period = 5.165 ns )
+From           : mod1_counter[17]
+To             : OneHzModCLK
+From Clock     : clock_50
+To Clock       : clock_50
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
